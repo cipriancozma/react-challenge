@@ -1,0 +1,85 @@
+.grid {
+    width: 85vw;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.list {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.btn {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 25%;
+}
+
+#dark .btn {
+    background-color: black;
+}
+
+@media only screen and (max-width: 1520px) {
+    .grid {
+        min-width: auto;
+        max-width: 85vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .list {
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .grid {
+        min-width: auto;
+        max-width: 85vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .list {
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .grid {
+        min-width: 70vw;
+        max-width: 85vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list {
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}

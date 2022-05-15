@@ -1,0 +1,25 @@
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    color: #0ccac4;
+    margin: 10px;
+}
+
+.authors {
+    list-style: none;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+#dark .container {
+    color: black;
+}

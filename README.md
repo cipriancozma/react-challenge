@@ -1,3 +1,21 @@
+# Info about how I decided to work on the app
+Well, if I would had more time to work on the app, definitely I would improved the UI part in terms of colors, design, let's say.
+I preferred to work with Context but I would choose Redux instead, but since it is a small app, it is okay at the moment.
+
+I think that for the layout of the BookItem I could use a UI component instead and not repeat myself with css.
+For instance I could create a UICard component and have it for all the BookItems components.
+
+If I would had more time also I would have choosen scss instead css and use variables, mixins and other advantages of the preprocessor and not repeat myself with some css declarations.
+
+There is work to do with refactoring, but in my opinion it's not so much to refactor. It is easy to understand the code I wrote and easy to maintain.
+
+Maybe I would choose to use useReducer instead so many useState in the Homepage component but I preferred to not complicate myself and keep the things simple at the moment, but for sure I would do the modifications if I would have some time in the future.
+
+I also would include more reusable components, for buttons, let's say. To create a Button Component and reuse it where I need.
+
+For the component tree part I am satisfied right now how this looks but I would do some improvements also in this direction.
+There's room for improvement.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

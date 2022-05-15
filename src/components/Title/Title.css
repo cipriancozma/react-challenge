@@ -1,0 +1,10 @@
+.title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.75rem;
+    color: #0ccac4;
+}
+
+#dark .title {
+    color: black;
+}
